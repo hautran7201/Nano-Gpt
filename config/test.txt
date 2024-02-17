@@ -1,0 +1,13 @@
+# --- Config ---
+batch_size    = 4 # 64
+block_size    = 8 # 256
+number_head   = 3
+number_block  = 3
+embedded_size = 96 # 384 # 3*32
+
+# --- Eval ---
+eval_interval = 500
+
+# --- Train ---
+training_step = 5000
+learning_rate = 4e-3
